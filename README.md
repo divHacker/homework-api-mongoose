@@ -10,8 +10,8 @@ Start App
 $ nodemon index.js
 ```
 
-[POST] -> http://domain/api/homework
-[GET] -> http://domain/api/homework
+POST -> http://domain/api/homework
+GET -> http://domain/api/homework
 
 JSON
 ```
