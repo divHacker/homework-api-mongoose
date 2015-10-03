@@ -1,5 +1,10 @@
 # homework-api-mongoose
 
+Download
+```
+$ git clone https://github.com/divHacker/homework-api-mongoose.git
+```
+
 Start Mongodb
 ```
 $ mongod --dbpath ./data
