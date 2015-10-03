@@ -1,11 +1,18 @@
 angular.module('app', [])
-  .controller('AppController', function ($http) {
+  .controller('AppController', function ($http, $interval) {
     var vm = this
 
     getHomeworks()
+    $interval(function () {
+      getHomeworks()
+    }, 5000)
 
     vm.submit = function (input) {
       saveHomework(input)
+    }
+
+    vm.toThaiDateTime = function (date) {
+      return moment(date).fromNow()
     }
 
     function getHomeworks () {
