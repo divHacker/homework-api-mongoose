@@ -3,6 +3,8 @@
 Download
 ```
 $ git clone https://github.com/divHacker/homework-api-mongoose.git
+$ cd homework-api-mongoose
+$ npm install
 ```
 
 Start Mongodb
