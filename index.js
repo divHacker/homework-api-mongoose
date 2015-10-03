@@ -5,6 +5,8 @@ var bodyParser = require('body-parser')
 
 mongoose.connect('mongodb://localhost:27017/homework_db')
 
+app.use(express.static('public'))
+
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
